@@ -16,8 +16,9 @@ $current_date = gmDate("Y-m-d H:i:s");
     <h1>Welcome to creating a todo list.</h1>
     <hr style="margin: 0px;">
     <div class="soloDiv soloDivCenter">
+      Today's Date: 
     <?php
-        echo "Today's Date: "+$current_date;
+        echo $current_date;
     ?>
     </div>
 </body>
