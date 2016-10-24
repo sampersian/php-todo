@@ -10,14 +10,14 @@ $current_date = gmDate("Y-m-d H:i:s");
 <html lang="en">
 <head>
     <meta charset="utf-8" />
-    <title>FFL Records</title>
+    <title>Todo List</title>
 </head>
 <body>
-    <h1>Fantasy League Front Office</h1>
+    <h1>Welcome to creating a todo list.</h1>
     <hr style="margin: 0px;">
     <div class="soloDiv soloDivCenter">
     <?php
-        echo $current_date;
+        echo "Today's Date: "+$current_date;
     ?>
     </div>
 </body>
